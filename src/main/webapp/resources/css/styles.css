@@ -21,3 +21,9 @@
 	border-top: 1px solid #BBBBBB;
 	padding: 5px;
 }
+
+#txtPrincipal {
+	font-size: 5rem;
+	transition: all .4s ease-in;
+	font-weight: bolder;
+}

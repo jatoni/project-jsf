@@ -19,6 +19,7 @@ public class PrincipalController {
 
 	private List<empleado> empleados;
 	private EmpleadoService empleadoService = new EmpleadoService();
+	private List<empleado> empleadoFiltrados;
 
 	/*
 	 * Metodo que se encarga de inicializar la informacion de la pantalla principal
@@ -38,6 +39,20 @@ public class PrincipalController {
 
 	public void setEmpleados(List<empleado> empleados) {
 		this.empleados = empleados;
+	}
+
+	/**
+	 * @return the empleadoFiltrados
+	 */
+	public List<empleado> getEmpleadoFiltrados() {
+		return empleadoFiltrados;
+	}
+
+	/**
+	 * @param empleadoFiltrados the empleadoFiltrados to set
+	 */
+	public void setEmpleadoFiltrados(List<empleado> empleadoFiltrados) {
+		this.empleadoFiltrados = empleadoFiltrados;
 	}
 
 }
